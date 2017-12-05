@@ -43,7 +43,7 @@ end
 function main()
 	-- Create window
 	utils.set_raylib_logging(0)
-	game_window = Window("Coingeon", 800, 450)
+	game_window = Window("Coingen", 1024, 674)
 	game_window:target_fps(60)
 	game_window:set_resizable(true)
 	game_window:start_game()
